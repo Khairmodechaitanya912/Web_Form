@@ -6,15 +6,23 @@
 
 #Login{
     height: 100vh;
-    background: rgb(228, 134, 228);
+    /* background: rgb(228, 134, 228); */
+    background-image: linear-gradient(rgba(0,0,0,0.5),#e92868),url(/Media/RK_Banner.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .login-heading{
     display: flex;
     justify-content: center;
-    padding-top: 12%;
+    padding-top: 5%;
     margin: auto;
     font-size: 35px;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
 }
 
 .Login-flex{
@@ -25,12 +33,12 @@
 .from-box{
     width: 40%;
     height: 60%;
-    background: cadetblue;
+    /* background: cadetblue; */
     margin: auto;
 }
 
 .main-heading{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 35%;
     font-size: 30px;
     font-weight: bold;
@@ -38,12 +46,19 @@
 
 .Center-con{
     padding-top: 3%;
-    padding-left: 35%;
+    padding-left: 25%;
     font-size: 25px;
 }
 
 .input{
     font-size: 20px;
+    text-decoration: none;
+}
+
+.input-a{
+    margin-left: 30%;
+    font-size: 18px;
+    padding-bottom: 20%;
     text-decoration: none;
 }
 
