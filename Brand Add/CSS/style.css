@@ -32,9 +32,20 @@
     font-size: 40px;
 }
 
+.lbl-r{
+    margin-left: 25%;
+    font-size: 30px;
+    text-align: justify;
+}
+
 .input{
     font-size: 35px;
     width: 38%;
+}
+
+.input-r{
+    width: 20px;
+    height: 20px;
 }
 
 .btn{
