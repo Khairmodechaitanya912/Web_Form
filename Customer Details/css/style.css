@@ -1,7 +1,7 @@
 
-#Customer{
-    background: linear-gradient(rgba(0,0,0,0.5),#e92868);
-}
+/* #Customer{
+    background: linear-gradient(rgba(0,0,0,0.5),#e07599);
+} */
 
 .Navbar{
     display: flex;
@@ -14,7 +14,7 @@
     float: right;
     list-style: none;
     padding: 15px 40px;
-    padding-left: 850px;
+    padding-left: 1000px;
 
 }
 
@@ -22,7 +22,7 @@
     margin: 15px;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 22px;
     width: 40%;
 }
 .Navbar h1{
@@ -43,28 +43,49 @@
     justify-content: center;
 }
 
-/* .form-flex{
+.form-flex{
     margin-left: 30%;
-    background-color: aqua;
+    background: linear-gradient(rgba(0,0,0,0.5),#e92868);
     width: 40%;
     height: 50%;
-} */
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 8px 8px 20px #000000;
+}
 .lbl{
-    padding-left: 40%;
+    padding-left: 18%;
     font-size: 25px;
 }
 .input{
-    width: 17%;
+    width: 40%;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .btn{
-    margin-left: 44%;
+    margin-left: 40%;
     font-size: 25px;
     border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
+}
+.btn-l{
+    margin-left: 25%;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
 }
 .btn-s{
-    margin-left: 2%;
+    margin-left: 8%;
     font-size: 25px;
     border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
+}
+
+.btn :hover{
+    color: black;
+    cursor: pointer;
 }
