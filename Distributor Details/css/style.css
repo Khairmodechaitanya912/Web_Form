@@ -1,0 +1,95 @@
+
+/* #Customer{
+    background: linear-gradient(rgba(0,0,0,0.5),#e07599);
+} */
+
+.Navbar{
+    display: flex;
+    background-color: black;
+}
+
+.Navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    list-style: none;
+    padding: 15px 40px;
+    padding-left: 1000px;
+
+}
+
+.Navbar nav ul li a{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    width: 40%;
+}
+.Navbar h1{
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+    padding-top: 10px;
+}
+
+.main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.main-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-flex{
+    margin-left: 30%;
+    background: linear-gradient(rgba(0,0,0,0.5),#e92868);
+    width: 40%;
+    height: 50%;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 8px 8px 20px #000000;
+}
+.lbl{
+    padding-left: 18%;
+    font-size: 25px;
+}
+.lbl-r{
+    padding-left: 8%;
+    font-size: 20px;
+}
+.input{
+    width: 40%;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.btn{
+    margin-left: 7%;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
+}
+.btn-l{
+    margin-left: 15%;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
+}
+.btn-s{
+    margin-left: 7%;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e92868;
+    color: beige;
+    width: 20%;
+}
+
+.rbtn{
+    width: 20px;
+    height: 20px;
+}
