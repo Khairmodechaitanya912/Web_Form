@@ -1,4 +1,6 @@
-
+body{
+    background: silver;
+}
 /* #Customer{
     background: linear-gradient(rgba(0,0,0,0.5),#e07599);
 } */
@@ -35,7 +37,8 @@
 .main h1{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 32px;
+    /* text-shadow: 2px 2px 4px #000000; */
 }
 
 .main-form{
@@ -45,43 +48,53 @@
 
 .form-flex{
     margin-left: 30%;
-    background: linear-gradient(rgba(0,0,0,0.5),#e92868);
-    width: 40%;
+    background: #ffffff;
+    /* background: linear-gradient(rgba(0,0,0,0.5),#e92868); */
+    width: 80vh;
     height: 50%;
-    text-shadow: 2px 2px 4px #000000;
-    box-shadow: 8px 8px 20px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
+    box-shadow: 12px 12px 20px #000000;
+    border-radius: 20PX;
 }
 .lbl{
-    padding-left: 18%;
-    font-size: 25px;
+    padding-top: 80%;
+    padding-left: 10%;
+    font-size: 18px;
 }
 .input{
     width: 40%;
+    padding: 5px;
     border-radius: 5px;
-    font-size: 23px;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid rgb(219, 218, 218);
+    height: 5%;
+    float: right;
+    margin-right: 30px;
+
 }
 .btn{
     margin-left: 40%;
     font-size: 25px;
     border-radius: 5px;
-    background-color: #e92868;
-    color: beige;
+    background-color: silver;
+    color: #000000;
     width: 20%;
 }
 .btn-l{
     margin-left: 25%;
     font-size: 25px;
     border-radius: 5px;
-    background-color: #e92868;
-    color: beige;
+    background-color: silver;
+    color: #000000;
     width: 20%;
 }
 .btn-s{
     margin-left: 8%;
     font-size: 25px;
     border-radius: 5px;
-    background-color: #e92868;
-    color: beige;
+    background-color:silver;
+    color: #000000;
     width: 20%;
 }
 
