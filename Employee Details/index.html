@@ -5,87 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RK Cosmetics</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <section id="Employee">
-        <div class="title">
-            <div class="heading">Employee Details</div>
+
+        <div class="Navbar">
+            <div>
+                <h1>RK Verieties</h1>
+            </div>
+             <nav>
+                 <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+             </nav>
+        </div>
+        
+        <div main-form>
+                
+            <form action="">
+                
+                 <div class="form-flex">
+
+                    <div class="main">
+                        <h1>Employee Details</h1>
+                    </div>
+                     <label for="eid" class="lbl">Employee ID</label>
+                    <input type="text" id="eid" class="input" placeholder="Enter Employee ID">
+                    <br><br>
+                    <label for="fname" class="lbl">Full Name </label>
+                    <input type="text" id="fname" class="input" placeholder="Enter Full Name">
+                    <br><br>
+                    <label for="date" class="lbl">Date </label>
+                    <input type="date" id="dob" class="input-date">
+                    <br><br>
+                    <label for="age" class="lbl">Age</label>
+                    <input type="number" id="age" min="18" max="50" class="input">
+                    <br><br>
+                    <label for="gender" class="lbl">Gender </label>
+                    <label for="female" class="lbl-r">Female</label>
+                    <input type="radio" id="Female" name="female" value="female" class ="btn-r">
+                    <label for="male" class="lbl-rr">Male</label>
+                    <input type="radio" id="male" name="male" value="male" class="btn-r">
+                    <br><br>
+                    <label for="jdate" class="lbl">Joining Date</label>
+                    <input type="date" id="jdate" class="input-date">
+                    <br><br>
+                    <label for="mobno" class="lbl">Mobile No</label>
+                    <input type="text" id="mobno" class="input" placeholder="Enter Mobile No">
+                    <br><br>
+                    <label for="amob" class="lbl">Alternate Mobile No</label> 
+                    <input type="text" id="altmobno" class="input" placeholder="Enter Alternate Mobile No">
+                    <br><br>
+                    <label for="adhar" class="lbl">Aadhar No</label>
+                    <input type="text" id="aadharno" class="input" placeholder="Enter Aadhar No">
+                    <br><br>
+                    <label for="pan" class="lbl">PAN No</label>
+                    <input type="text" id="panno" class="input" placeholder="Enter PAN No">
+                    <br><br>
+                    <label for="email" class="lbl">Email Id</label>
+                    <input type="text" id="email" class="input" placeholder="Enter Email ID">
+                    <br><br>
+                    <label for="add" class="lbl">Address</label>
+                    <input type="text" id="add" class="input" placeholder="Enter Address">
+                    <br><br><br>
+                    <input type="submit" value="Submit" class="btn">
+                    <input type="submit" value="Update" class="btn-l">
+                    <input type="submit" value="Refresh" class="btn-s">
+                    <br><br>
+                </div>
+            </form>
         </div>
 
-        <div class="main">
-        <table>
-            <tr>
-                <td>Employee ID : </td>
-                <td><input type="text" id="eid" class="id" placeholder="Enter Employee ID"></td>
-            </tr>
-            <tr>
-                <td>First Name : </td>
-                <td><input type="text" id="fname" class="id" placeholder="Enter First Name"></td>
-            </tr>
-            <tr>
-                <td>Middle Name : </td>
-                <td><input type="text" id="mname" class="id" placeholder="Enter Middle Name"></td>
-            </tr>
-            <tr>
-                <td>Last Name : </td>
-                <td><input type="text" id="lname" class="id" placeholder="Enter Last Name"> </td>
-            </tr>
-            <tr>
-                <td>Date Of Birth : </td>
-                <td><input type="date" id="dob" class="id"></td>
-            </tr>
-            
-            <tr>
-                <td>Age : </td>
-                <td><input type="number" id="age" min="18" max="50" class="id"></td>
-            </tr>
-            <tr>
-                <td>Gender : </td>
-                <td><input type="radio" id="Female" name="female" value="female" class ="btn-r">Female</td>
-                <td><input type="radio" id="male" name="male" value="male" class="btn-r">Male</td>
-            </tr>
-            <tr>
-                <td>Joining Date : </td>
-                <td><input type="date" id="jdate" class="id"> </td>
-            </tr>
-            <tr>
-                <td>Mobile No : </td>
-                <td><input type="text" id="mobno" class="id" placeholder="Enter Mobile No"> </td>
-            </tr>
-            <tr>
-                <td>Alternate Mobile No : </td>
-                <td><input type="text" id="altmobno" class="id" placeholder="Enter Alternate Mobile No"></td>
-            </tr>
-            <tr>
-                <td>Aadhar No : </td>
-                <td><input type="text" id="aadharno" class="id" placeholder="Enter Aadhar No"></td>
-            </tr>
-            <tr>
-                <td>PAN No : </td>
-                <td><input type="text" id="panno" class="id" placeholder="Enter Pan No"></td>
-            </tr>
-            <tr>
-                <td>Email ID : </td>
-                <td><input type="text" id="email" class="id" placeholder="Enter Email ID"></td>
-            </tr>
-            <tr>
-                <td>Address : </td>
-                <td><input type="text" id="add" class="id" placeholder="Enter Address"></td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" value="Submit" class="btn">
-                    
-                </td>
-                <td>
-                    <input type="submit" value="Refresh" class="btn">
-                </td>
-            </tr>
-        </table>
-        </div>
-       
     </section>
     
 </body>
